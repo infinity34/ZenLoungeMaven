@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="ZenLoungeMaven">
+		<class>dal.models.Accessory</class>
+		<class>dal.models.Accessoryavailability</class>
+		<class>dal.models.AccessoryavailabilityId</class>
+		<class>dal.models.Activity</class>
+		<class>dal.models.Activitycategory</class>
+		<class>dal.models.Administrator</class>
+		<class>dal.models.Adress</class>
+		<class>dal.models.Brand</class>
+		<class>dal.models.Category</class>
+		<class>dal.models.Event</class>
+		<class>dal.models.Inscription</class>
+		<class>dal.models.Invoice</class>
+		<class>dal.models.Manager</class>
+		<class>dal.models.Member</class>
+		<class>dal.models.Notification</class>
+		<class>dal.models.Office</class>
+		<class>dal.models.Orders</class>
+		<class>dal.models.Paymenttype</class>
+		<class>dal.models.Period</class>
+		<class>dal.models.Product</class>
+		<class>dal.models.Productline</class>
+		<class>dal.models.Recurringevent</class>
+		<class>dal.models.Room</class>
+		<class>dal.models.Shoppingcart</class>
+		<class>dal.models.Speaker</class>
+		<class>dal.models.State</class>
+		<class>dal.models.Subscription</class>
+		<class>dal.models.Subscriptionpayment</class>
+		<class>dal.models.Trainingroom</class>
+		<class>dal.models.User</class>
+	</persistence-unit>
+</persistence>
